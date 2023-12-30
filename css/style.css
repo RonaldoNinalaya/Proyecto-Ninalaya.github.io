@@ -218,19 +218,26 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
     gap: 2rem;
     padding: 1rem;
 }
 
 .figure--gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 1200px;
+    width: 60%;
+    height: 120px;
+    
+    
     /* width: 60%; */
     
 
     
 }
 .figure--gallery img {
-    max-width: 400px;
     padding: 1rem;
 }
 
